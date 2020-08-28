@@ -1,0 +1,14 @@
+.nav-link{
+    color: red;
+    font-family: 'Cookie', cursive;
+    font-size: xx-large;
+    font-weight: 500;
+  }
+  .nav-link:hover{
+    background-color:lightgray;
+    border-radius: 50%;
+  
+  }
+  .nav-link.active {
+    color:chocolate;
+  }
