@@ -32,6 +32,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ProfileComponent } from './profile/profile.component';
 import { RepoComponent } from './repo/repo.component';
+import { DateCountPipe } from './pipes/date-count.pipe';
 // import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 // import { ProfileService } from './services/profile.service';
 // import { HighlightDirective } from './highlight.directive';
@@ -46,13 +47,14 @@ import { RepoComponent } from './repo/repo.component';
     NavbarComponent,
     ProfileComponent,
     RepoComponent,
+    DateCountPipe,
     // PageNotFoundComponent,
     // HighlightDirective,
     // DateAgoPipe,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    // AppRoutingModule,
     HttpClientModule,
     FormsModule
 
