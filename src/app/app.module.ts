@@ -33,6 +33,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ProfileComponent } from './profile/profile.component';
 import { RepoComponent } from './repo/repo.component';
 import { DateCountPipe } from './pipes/date-count.pipe';
+import { DateAgoPipe } from './pipes/date-ago.pipe';
+import { HighlightDirective } from './highlight.directive';
 // import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 // import { ProfileService } from './services/profile.service';
 // import { HighlightDirective } from './highlight.directive';
@@ -48,6 +50,8 @@ import { DateCountPipe } from './pipes/date-count.pipe';
     ProfileComponent,
     RepoComponent,
     DateCountPipe,
+    DateAgoPipe,
+    HighlightDirective,
     // PageNotFoundComponent,
     // HighlightDirective,
     // DateAgoPipe,
