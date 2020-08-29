@@ -1,5 +1,5 @@
 .nav-link{
-    color: red;
+    color: green;
     font-family: 'Cookie', cursive;
     font-size: xx-large;
     font-weight: 500;
@@ -10,5 +10,5 @@
   
   }
   .nav-link.active {
-    color:chocolate;
+    color: gainsboro;
   }
