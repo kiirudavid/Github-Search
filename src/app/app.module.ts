@@ -31,6 +31,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ProfileComponent } from './profile/profile.component';
+import { RepoComponent } from './repo/repo.component';
 // import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 // import { ProfileService } from './services/profile.service';
 // import { HighlightDirective } from './highlight.directive';
@@ -44,6 +45,7 @@ import { ProfileComponent } from './profile/profile.component';
     // routingComponents,
     NavbarComponent,
     ProfileComponent,
+    RepoComponent,
     // PageNotFoundComponent,
     // HighlightDirective,
     // DateAgoPipe,
