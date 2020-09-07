@@ -26,7 +26,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 # Git search
 
- Date of current version<strong>*: 08/04/2020*</strong>
+ Date of current version<strong>*: 07/09/2020*</strong>
  <img src="./src/assets/home.png">
 
 #### By:
