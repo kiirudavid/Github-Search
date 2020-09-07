@@ -1,13 +1,3 @@
-// import { Injectable } from '@angular/core';
-
-// @Injectable({
-//   providedIn: 'root'
-// })
-// export class ProfileService {
-
-//   constructor() { }
-// }
-
 
 import { Injectable } from '@angular/core';
 
@@ -21,11 +11,11 @@ import {map} from 'rxjs/operators';
 export class ProfileService {
 
   private username: string;
-  private clientid = 'e5a8ffa24cd8e6788207'
-  private clientsecret ='29cc02966f0c1eeabf9cad139d113cfda8a1ed6d'
+  private clientid = ''
+  private clientsecret ='d33fb88510a2d371676f8766878560766a16b60e'
   constructor(private http:HttpClient) {
     console.log("service is now ready!");
-    this.username = 'fattym';
+    this.username = 'kiirudavid';
   }
   getProfileInfo(){
   	return this.http.get("https://api.github.com/users/" + this.username + "?client_id=" +    this.clientid +
